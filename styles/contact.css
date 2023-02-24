@@ -1,0 +1,207 @@
+@import './global.css';
+
+.content_contact {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 40px;
+}
+.head_contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.head_contact p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--white-page);
+    opacity: 0.8;
+}
+.head_contact h3 {
+    width: 234px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--white-page);
+    opacity: 0.8;
+    margin: 20px 0;
+    padding: 8px;
+    background-color: var(--detalle-strong);
+    border-radius: 4px;
+    border: solid 2px var(--primary-color);
+
+}
+.tocontact {
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 40px;
+    margin: 30px 0 60px 0;
+}
+
+.toMail, .tophone {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.span_content {
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span_content span {
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.toMail .span_content span {
+    background-image: url(../icons/computer.svg);
+}
+.tophone .span_content span {
+    background-image: url(../icons/call.svg);
+}
+.toMail a {
+    margin-left: 10px;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--white-page);
+    opacity: 0.8;
+    padding: 4px 0;
+    text-decoration-color: var(--primary-color);
+    
+}
+.tophone p {
+    margin-left: 10px;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--white-page);
+    opacity: 0.8;
+}
+.jnk_contact {
+    width: 34px;
+    height: 20px;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    border: solid 2px black;
+    margin-top: 10px;
+}
+footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: -310px;
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 30px;
+    background-color: var(--detalle-strong);
+    border-top: solid 3px var(--primary-color);
+   
+}
+.signature {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content_credits {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_credits p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--white-page);
+    opacity: 0.7;
+    margin: 0 3px;
+}
+.mor_contact {
+    height: 70px;
+    max-width: 300px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.btnfooter {
+    background-color: var(--detalle-strong);
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+@media (min-width: 700px) {
+    .head_contact p {
+        font-size: 1.8rem;
+    }
+    .head_contact h3 {
+        width: 310px;
+        font-size: 2.2rem;
+        margin: 28px 0;
+    }
+    .tocontact {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 60px;
+        margin: 30px 0 70px 0;
+    }
+    .toMail, .tophone {
+        justify-content: center;
+
+    }
+    .span_content {
+        width: 70px;
+        height: 70px;
+    }
+    .span_content span {
+        width: 58px;
+        height: 58px;
+    }
+    .toMail a {
+        margin-left: 16px;
+        font-size: 1.5rem;
+        padding: 8px 0; 
+    }
+    .tophone p {
+        margin-left: 16px;
+        display: block;
+        font-size: 1.7rem;
+    }
+    footer {
+        margin-top: -350px;
+        padding: 30px 30px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+    .mor_contact {
+        padding: 0 20px;
+    }
+    .btnfooter {
+        width: 150px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+    }
+}
+
+    

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Rajdhani:wght@400;500&family=Roboto+Serif:ital,opsz,wght@1,8..144,300;1,8..144,500&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/folio.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/loading.css">
+
+    <title>Juanko WebDeV</title>
+</head>
+<body >
+    <header id="init_home">
+        <div class="slider_items">
+            <section class="slider_container">
+                <img src="./img/img1Chef.jpg" alt="Imagen" class="actual_image" id="slide">
+                <span class="sub_slider"></span>
+                <div class="title">
+                    <h4>Producción JnK 2022</h4>
+                    <h3>Landry Chef</h3>
+                </div>  
+                <div class="description" >
+                    <h5>Detalles:</h5>
+                    <p>Web personal para contacto y promoción.</p>
+                </div>
+            </section>
+            <section class="slider_container">
+                <img src="./img/img2Yard.jpg" alt="Imagen tienda online" class="actual_image" id="slide">
+                <span class="sub_slider"></span>
+                <div class="title">
+                    <h4>Producción JnK y Platzi 2023</h4>
+                    <h3>YardSale</h3>
+                </div>  
+                <div class="description" >
+                    <h5>Detalles:</h5>
+                    <p>Poyecto (REACT, API) mejoras a versión original.</p>
+                </div>
+            </section>
+            <section class="slider_container">
+                <img src="./img/img3Vodafone.jpg" alt="Imagen tienda online" class="actual_image" id="slide">
+                <span class="sub_slider"></span>
+                <div class="title">
+                    <h4>Producción JnK 2022</h4>
+                    <h3>Tim Stark</h3>
+                </div>  
+                <div class="description" >
+                    <h5>Detalles:</h5>
+                    <p>Registro de tiempo en llamada par callcenter de Vodafone.</p>
+                </div>
+            </section>
+            <section class="slider_container">
+                <img src="./img/img4Marvel.jpg" alt="Imagen tienda online" class="actual_image" id="slide">
+                <span class="sub_slider"></span>
+                <div class="title">
+                    <h4>Producción JnK y Udemy 2023</h4>
+                    <h3>Api-Marvel</h3>
+                </div>  
+                <div class="description" >
+                    <h5>Detalles:</h5>
+                    <p>Poyecto (REACT, API) mejoras a versión original.</p>
+                </div>
+            </section>
+            <section class="slider_container">
+                <img src="./img/img5Tareas.jpg" alt="Imagen tienda online" class="actual_image" id="slide">
+                <span class="sub_slider"></span>
+                <div class="title">
+                    <h4>Producción JnK y Platzi 2022</h4>
+                    <h3>App-Tareas</h3>
+                </div>  
+                <div class="description" >
+                    <h5>Detalles:</h5>
+                    <p>Poyecto practico REACT</p>
+                </div>
+            </section>
+            <section class="slider_container">
+                <img src="./img/img6R&M.jpg" alt="Imagen tienda online" class="actual_image" id="slide">
+                <span class="sub_slider"></span>
+                <div class="title">
+                    <h4>Producción JnK y Udemy 2022</h4>
+                    <h3>Rick & Morty</h3>
+                </div>  
+                <div class="description" >
+                    <h5>Detalles:</h5>
+                    <p>Poyecto (REACT, API) mejoras a versión original</p>
+                </div>
+            </section>
+            <section class="slider_container">
+                <img src="./img/img1Chef.jpg" alt="Imagen" class="actual_image" id="slide">
+                <span class="sub_slider"></span>
+                <div class="title">
+                    <h4>Producción JnK 2022</h4>
+                    <h3>Landry Chef</h3>
+                </div>  
+                <div class="description" >
+                    <h5>Detalles:</h5>
+                    <p>Web personal para contacto y promoción.</p>
+                </div>
+            </section>
+        </div>
+        <div class="content_jnk">
+            <object data="./icons/jnk.svg" class="jnk" type=""></object>
+            <div class="spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="content_littel_slider" >
+            <img src="./img/p1chef.jpg" alt="vista portatil" id="img_portatil">
+            <div class="arrow_content">
+                <span class="arrow_left" id="left"></span>
+                <p class="count">01 - 06</p>
+                <span class="arrow_left arrow_right" id="right"></span>
+            </div>
+            <span class="time_loader"></span>
+        </div>
+    </header>  
+    <main>
+        <section class="home">
+            <div class="menu">
+                <div class="content_bars">
+                    <span class="line1__bars-menu"></span>
+                    <span class="line2__bars-menu"></span>
+                    <span class="line3__bars-menu"></span>
+                </div>
+                <ul class="content_item_menu">
+                    <li class="list activate"><a href="#init_home"><div class="content_span_item"><span class="icon_item house"></span></div></span><h3>INICIO</h3></a></li>
+                    <li class="list"><a href="#init_about"><div class="content_span_item"><span class="icon_item abaut"></span></div></span><h3>SOBRE MI</h3></a></li>
+                    <li class="list"><a href="#init_porfolio"><div class="content_span_item"><span class="icon_item porfolio"></span></div></span><h3>PORTAFOLIO</h3></a></li>
+                    <li class="list"><a href="#init_contact"><div class="content_span_item"><span class="icon_item contact"></span></div></span><h3>CONTACTO</h3></a></li>
+                </ul>
+            </div>
+            <div class="presentation">
+                <h2>Hola</h2>
+                <div class="name">
+                    <h2>Soy</h2>
+                    <h2>Juanko</h2>
+                </div>
+            
+                <h4>Web developer & Ing. Automático.</h4>
+              
+                <p> Me encantan los retos por eso he iniciado un 
+                    fascinante camino en el mundo del desarrollo web.
+                    Soy un apasionado de mi trabajo, y entrego el 
+                    100% en cada proyecto.
+                </p>
+            </div>
+            <div class="tools">
+                <h2>Herramientas</h2>
+                <div class="content_icons">
+                    <div class="content_tools">
+                        <span class="tools_icons html" ></span>
+                        <div class="description_tool">
+                            <p>html</p>
+                            <div class="percent"><span class="old html_percent"></span></div>
+                            <p>90%</p>
+                        </div>
+                    </div>
+                    <div class="content_tools">
+                        <span class="tools_icons css" ></span>
+                        <div class="description_tool">
+                            <p>css</p>
+                            <div class="percent"><span class="old css_percent"></span></div>
+                            <p>80%</p>
+                        </div>
+                    </div>
+                    <div class="content_tools">
+                        <span class="tools_icons js" ></span>
+                        <div class="description_tool">
+                            <p>js</p>
+                            <div class="percent"><span class="old js_percent"></span></div>
+                            <p>73%</p>
+                        </div>
+                    </div>
+                    <div class="content_tools">
+                        <span class="tools_icons react" ></span>
+                        <div class="description_tool">
+                            <p>react</p>
+                            <div class="percent"><span class="old react_percent"></span></div>
+                            <p>65%</p>
+                        </div>
+                    </div>
+                    <div class="content_tools">
+                        <span class="tools_icons sass" ></span>
+                        <div class="description_tool">
+                            <p>sass</p>
+                            <div class="percent"><span class="old css_percent"></span></div>
+                            <p>80%</p>
+                        </div>
+                    </div>
+                    <div class="content_tools">
+                        <span class="tools_icons photos" ></span>
+                        <div class="description_tool">
+                            <p>Ps</p>
+                            <div class="percent"><span class="old Ps_percent"></span></div>
+                            <p>60%</p>
+                        </div>
+                    </div>
+                      
+                </div>
+            </div>
+        </section>
+        <section class="about" id="init_about">
+           <div class="information_content">
+                <h1 class="name_section">SOBRE MI</h1>
+                <div class="center_present">
+                    <p>Mi nombre es JUAN ANTONIO HERNÁNDEZ FERNÁNDEZ,
+                        pero puedes llamarme JUANKO. Soy Web developer e Ingeniero Automático.
+                    </p> 
+                    
+                </div>
+                <div class="information">
+                    <div class="information_left">
+                        <p>En el inicio de mi carrera profesional me he especializado 
+                            en la automatización de procesos industriales. Esta 
+                            profesión me ha llevado a ser una persona pragmática, 
+                            laboriosa y osada. Lograr objetivos difíciles es lo que más me motiva.
+                        </p>
+                    </div>
+                    <div class="information_right">
+                        <span class="content_img">
+                            
+                        </span>
+                    </div>
+                </div>
+                <div class="my">
+                    <div class="canWork">
+                        <div class="word_card work_left">
+                            <div class="wc_title">
+                                <h3>Maquetado</h3>
+                                <i class="content_span one">
+                                    <span></span>
+                                </i>
+                            </div>
+                            <p>Convirtiendo las ideas en interfaces
+                                aptas para la utilización de los usuarios
+                            </p>
+                        </div>
+                        <div class="word_card work_center">
+                            <div class="wc_title">
+                                <h3>Diseño</h3>
+                                <i class="content_span two">
+                                    <span></span>
+                                </i>
+                            </div>
+                            <p>Concretando lo abstracto. Desarrollo interfases digitales
+                                a gusto y medida
+                            </p>
+                        </div>
+                        <div class="word_card work_rigth">
+                            <div class="wc_title">
+                                <h3>Código</h3>
+                                <i class="content_span three">
+                                    <span></span>
+                                </i>
+                            </div>
+                            <p>Utilizando lenguajes, framwords y librerias actualizadas 
+                                y de alto rendimiento 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="training">
+                        <div class="studies">
+                            <h3>Formación</h3>
+                            <ul>
+                                <li>Ingeniería Automática (Cuba)</li>
+                                <li>Escuela de desarrollo web. (Platzi)</li>
+                                <li>Escuela de JavaScript. (Platzi)</li>
+                                <li>Frontend a profundidad con React.js (Platzi)</li>
+                                <li>Programación orientada a objeto  (C/C++).(Cuba)</li>
+                           
+                            </ul>
+                        </div>
+                        <div class="studies experience">
+                            <h3>Experiencia</h3>
+                            <ul>
+                                <li>Desarrollador web free lance. 
+                                    Colaboraciones con Marktel, 
+                                    Vodafone España y pequeños empresarios. 
+                                </li>
+                                <li>Técnico de informática y electrónica de equipos de montaje (Francia)</li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           </div> 
+           <div class="more">
+                <span><a href="https://github.com/JuankoHF" target="_blank"></a></span>
+                <a download="CV-Juanko" href="./documents/CV JNK-WebDev E2023.pdf" class="buttonDownload">Descargar CV</a>
+                <span><a href="https://www.linkedin.com/in/juan-antonio-hern%C3%A1ndez-fern%C3%A1ndez-b662ba1b2/" target="_blank"></a></span>
+           </div>
+        </section>
+        <section class="portafolio" id="init_porfolio">
+            <div class="information_content">
+                <h1 class="name_section name_folio">PORTAFOLIO</h1>
+            </div>
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                         <!-- Slide-start -->
+                         <div class="swiper-slide tranding-slide">
+                           
+                            <img src="./img/3p_yard.png"  class="tranding-slide-img" alt="vista web">
+            
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="proyect-name">
+                                    Yard Sale
+                                </h2>
+                                <p class="proyect-description">
+                                    Poyecto (REACT, API) Platzi
+                                    mejoras a versión original
+                                </p>
+                               <div class="links_and_skils">
+                                    <div class="skils skils_rm">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="enlaces enlaces_rm">
+                                        <span>
+                                            <a href="https://github.com/JuankoHF/Yard_Shopping" target="_blank"></a>
+                                        </span>
+                                        <span class="toLinkedin">
+                                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7028010516925034496/" target="_blank"></a>
+                                        </span>
+                    
+                                    </div>
+                               </div>
+                            </div>
+                        </div>   
+                        <div class="swiper-slide tranding-slide">
+                           
+                            <img src="./img/3p_landryChef.png"  class="tranding-slide-img" alt="vista web">
+            
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="proyect-name">
+                                    Landry Chef
+                                </h2>
+                                <p class="proyect-description">
+                                    Web personal para contacto y promoción
+                                    100% JnK
+                                </p>
+                               <div class="links_and_skils">
+                                    <div class="skils">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="enlaces enlaces_rm">
+                                        <span>
+                                            <a target="_blank" href="https://github.com/JuankoHF/Landry_Chef"></a>
+                                        </span>
+                                        <span>
+                                            <a target="_blank" href="https://www.linkedin.com/posts/juan-antonio-hern%C3%A1ndez-fern%C3%A1ndez-b662ba1b2_job-ugcPost-7009476520742162432-NAsN?utm_source=share&utm_medium=member_desktop"></a>
+                                        </span>
+                                        <span>
+                                            <a target="_blank" href="http://chefdjnk.github.io/"></a>
+                                        </span>
+                                    </div>
+                               </div>
+                            </div>
+                           
+                        </div> 
+                        <div class="swiper-slide tranding-slide">
+                           
+                            <img src="./img/3p_marvel.png"  class="tranding-slide-img" alt="vista web">
+            
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="proyect-name">
+                                    Marvel API
+                                </h2>
+                                <p class="proyect-description">
+                                    Poyecto (REACT, API) Udemy
+                                    mejoras a versión original
+                                </p>
+                               <div class="links_and_skils">
+                                    <div class="skils skils_rm">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="enlaces enlaces_rm">
+                                        <span>
+                                            <a target="_blank" href="https://github.com/JuankoHF/api_marvel"></a>
+                                        </span>
+                                        <span class="toLinkedin">
+                                            <a target="_blank" href="https://www.linkedin.com/posts/juan-antonio-hern%C3%A1ndez-fern%C3%A1ndez-b662ba1b2_disfr%C3%BAtalo-httpslnkdindqbb5sj-ugcPost-7021247408785305600-9dK9?utm_source=share&utm_medium=member_desktop"></a>
+                                        </span>
+                    
+                                    </div>
+                               </div>
+                            </div>
+                        </div>  
+                        <div class="swiper-slide tranding-slide">
+                           
+                            <img src="./img/3p_AHT.png"  class="tranding-slide-img" alt="vista web">
+            
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="proyect-name">
+                                    AHT Stark
+                                </h2>
+                                <p class="proyect-description">
+                                    Empresarial. Controla tiempo en llamada
+                                    para callcenter 100% JnK
+                                   
+                                </p>
+                               <div class="links_and_skils">
+                                    <div class="skils">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="enlaces enlaces_rm">
+                                        <span>
+                                            <a target="_blank" href="https://github.com/JuankoHF/AHT_Stark/tree/master"></a>
+                                        </span>
+                                        <span>
+                                            <a target="_blank" href="https://www.linkedin.com/posts/juan-antonio-hern%C3%A1ndez-fern%C3%A1ndez-b662ba1b2_nueva-app-web-lista-control-de-ugcPost-6993963224899416066-by8Y?utm_source=share&utm_medium=member_desktop"></a>
+                                        </span>
+                                        <span>
+                                            <a target="_blank" href="https://juankohf.github.io/AHT_Stark/"></a>
+                                        </span>
+                                    </div>
+                               </div>
+                            </div>
+                           
+                        </div>  
+                        <div class="swiper-slide tranding-slide">
+                           
+                            <img src="./img/3p_batata.png"  class="tranding-slide-img" alt="vista web">
+            
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="proyect-name">
+                                    Web Batata
+                                </h2>
+                                <p class="proyect-description">
+                                    Proyecto práctico,
+                                    escuela Frontend de Platzi
+                                </p>
+                               <div class="links_and_skils">
+                                    <div class="skils">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="enlaces">
+                                        <span>
+                                            <a target="_blank" href="https://github.com/JuankoHF/Responsive_appWeb--Batata/tree/master"></a>
+                                        </span>
+            
+                                    </div>
+                               </div>
+                            </div>
+                           
+                        </div>
+                        <div class="swiper-slide tranding-slide">
+                           
+                            <img src="./img/3p_R&M.png"  class="tranding-slide-img" alt="vista web">
+            
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="proyect-name">
+                                    Rick & Morty
+                                </h2>
+                                <p class="proyect-description">
+                                    Poyecto (REACT, API) Udemy
+                                    mejoras a versión original
+                                </p>
+                               <div class="links_and_skils">
+                                    <div class="skils skils_rm">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="enlaces enlaces_rm">
+                                        <span>
+                                            <a target="_blank" href="https://github.com/JuankoHF/rick_morty/tree/master"></a>
+                                        </span>
+                                        <span class="toLinkedin">
+                                            <a target="_blank" href="https://www.linkedin.com/posts/juan-antonio-hern%C3%A1ndez-fern%C3%A1ndez-b662ba1b2_utilizando-api-de-rick-morty-base-de-proyecto-ugcPost-7016590287204413440-s3k3?utm_source=share&utm_medium=member_desktop"></a>
+                                        </span>
+                                        <span class="toNavegate">
+                                            <a target="_blank" href="https://tourmaline-sable-7112a5.netlify.app/"></a>
+                                        </span>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>  
+                        <div class="swiper-slide tranding-slide">
+                           
+                            <img src="./img/3p_tareas.png"  class="tranding-slide-img" alt="vista web">
+            
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="proyect-name">
+                                    Lista de Tareas
+                                </h2>
+                                <p class="proyect-description">
+                                    Poyecto REACT Platzi
+                                    mejoras a versión original
+                                </p>
+                               <div class="links_and_skils">
+                                    <div class="skils skils_rm">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="enlaces enlaces_rm">
+                                        <span>
+                                            <a target="_blank" href="https://github.com/JuankoHF/Lista_de_tareas_con_REACT.js/tree/master"></a>
+                                        </span>
+                                        <span class="toLinkedin">
+                                            <a target="_blank" href="https://www.linkedin.com/posts/juan-antonio-hern%C3%A1ndez-fern%C3%A1ndez-b662ba1b2_usereact-disponible-muy-pronto-en-githubcom-activity-6980900389667655680-OidL?utm_source=share&utm_medium=member_desktop"></a>
+                                        </span>
+                                        <span class="toNavegate">
+                                            <a target="_blank" href="https://juankohf.github.io/Lista_de_tareas_con_REACT.js/"></a>
+                                        </span>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                       
+                        <!-- Slide-end -->
+                    </div>
+                    <span class="moving swiper-button-prev"></span>
+                    <span class="moving swiper-button-next"></span>
+                    <div class="swiper-pagination">
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+        <section class="about counted" id="init_contact">
+            <div class="information_content">
+                <h1 class="name_section">CONTACTO</h1>
+                <div class="content_contact">
+                    <div class="head_contact">
+                        <p>Sin dudas es un buen momento para contactar
+                            conmigo, ya sea para consertar una entrevista o simplemente
+                            para hacer alguna critica que me ayude a mejorar
+                            como profecional.
+                        </p>
+                        <h3>Gracias por su atención.</h3>
+                    </div>
+                    <div class="tocontact">
+                        <div class="toMail">
+                            <div class="span_content">
+                                <span></span>
+                            </div>
+                            <div class="goMail">
+                                <a href="mailto:herferjuan9003@gmail.com">herferjuan9003@gmail.com</a>
+                                <a href="mailto:juanko.efe@gmail.com">juanko.efe@gmail.com</a>
+                            </div>
+            
+                        </div>
+                        <div class="tophone">
+                            <div class="span_content">
+                                <span></span>
+                            </div>
+                            <p>+34 626708613</p>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+    </main> 
+    <footer>
+        <div class="signature">
+            <div class="content_credits">
+                <p>copyright 2023</p>
+                <p> | Desarrollado por JNK-WebDEV</p>
+            </div>
+            <object data="./icons/jnk.svg" class="jnk_contact" type=""></object>
+        </div>
+        <div class="more mor_contact">
+            <span><a href="https://github.com/JuankoHF" target="_blank"></a></span>
+            <a download="Carta/presentación-Juanko" href="./documents/carta JNK-WebDev E2023.pdf" class="buttonDownload btnfooter">Descargar C/P</a>
+            <span><a href="https://www.linkedin.com/in/juan-antonio-hern%C3%A1ndez-fern%C3%A1ndez-b662ba1b2/" target="_blank"></a></span>
+       </div>
+    </footer>
+</body>
+<script src="./js/slider.js"></script>
+<script src="./js/menu.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      loop: true,
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+</script>
+</html>
