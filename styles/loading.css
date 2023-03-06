@@ -8,7 +8,7 @@
         left: 0px;
         background-color: var(--secundary-color);
     }
-    90% {
+    80% {
         width: 100vw;
         height: 100vh;
         top: 0px;
@@ -31,14 +31,14 @@
         margin-top: 200px;
         margin-left: calc(50% - 10px);
     }
-    70% {
+    65% {
         width: 0px;
         height: 0px;
         opacity: 0;
         margin-top: 200px;
         margin-left: calc(50% - 10px);
     }
-    90% {
+    85% {
         width: 60px;
         height: 30px;
         opacity: 1;
@@ -66,7 +66,7 @@ width: 0px;
 height: 0px;
 background-color: #ff6000;
 border-radius: 50%;
-animation: spinner-4t3wzl 1.2s 2 backwards;
+animation: spinner-4t3wzl 1s 2 backwards;
 }
 
 .spinner div:nth-child(1) {
@@ -94,8 +94,8 @@ animation-delay: 0.75s;
 background-color: #fe9553;
 }
 .spinner div:nth-child(6) {
-    animation: bar 3s ease-in;
-    animation-delay: 3s;
+    animation: bar 1.5s ease-in;
+    animation-delay: 2.5s;
     
 }
 
@@ -147,7 +147,7 @@ background-color: #fe9553;
             left: 0px;
             background-color: var(--secundary-color);
         }
-        90% {
+        80% {
             width: 100vw;
             height: 100vh;
             top: 0px;

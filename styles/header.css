@@ -16,7 +16,7 @@ header {
     z-index: 10;
     top: 10px;
     left: 10px;
-    animation: loading 7s ease-in-out;
+    animation: loading 5.5s ease-in-out;
 }
 
 .jnk {
@@ -27,7 +27,7 @@ header {
     border: solid 2px black;
     border-radius: 4px;
      
-    animation: load 7s ease-in-out;
+    animation: load 5.5s ease-in-out;
 }
 
 .slider_items {
